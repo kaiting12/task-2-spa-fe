@@ -23,7 +23,7 @@ export default function AddBookDrawer({openAddBookDrawer, onClose}) {
         <Drawer title="Add contact" placement="right" onClose={onClose} open={openAddBookDrawer}
                 destroyOnClose={true}>
             <Form layout="vertical" onFinish={onFinish}>
-                <Form.Item name="title" label="Name"
+                <Form.Item name="title" label="Title"
                            rules={[{required: true, message: 'Please enter book title'}]}
                 >
                     <Input placeholder="Please enter user name"/>

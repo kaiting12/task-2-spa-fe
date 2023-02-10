@@ -59,8 +59,7 @@ function App() {
             <h1>Library</h1>
             <Button type="primary" className="button" onClick={() => {
                 setOpenAddBookDrawer(true);
-            }}>{"Add contact"}</Button>
-            {/*<Button variant="primary">Primary</Button>{' '}*/}
+            }}>{"Add book"}</Button>
             <Table dataSource={bookList} className="center" rowKey="_id">
                 <Column title="Title" dataIndex="title" key="title"/>
                 <Column title="Borrower" dataIndex="borrower" key="borrower"/>

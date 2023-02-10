@@ -17,7 +17,7 @@ export default function EditBookDrawer({openEditBookDrawer, onCloseEditBookDrawe
         onCloseEditBookDrawer();
     }
     return (
-        <Drawer title="Edit contact" placement="right" onClose={onCloseEditBookDrawer} open={openEditBookDrawer}
+        <Drawer title="Edit book" placement="right" onClose={onCloseEditBookDrawer} open={openEditBookDrawer}
                 destroyOnClose={true}>
             <Form layout="vertical" onFinish={onFinish} initialValues={{...bookData}}>
                 <Form.Item name="title" label="Title"

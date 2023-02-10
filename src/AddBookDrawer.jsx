@@ -20,7 +20,7 @@ export default function AddBookDrawer({openAddBookDrawer, onClose}) {
     };
 
     return (
-        <Drawer title="Add contact" placement="right" onClose={onClose} open={openAddBookDrawer}
+        <Drawer title="Add book" placement="right" onClose={onClose} open={openAddBookDrawer}
                 destroyOnClose={true}>
             <Form layout="vertical" onFinish={onFinish}>
                 <Form.Item name="title" label="Title"
@@ -72,7 +72,5 @@ export default function AddBookDrawer({openAddBookDrawer, onClose}) {
                 </Form.Item>
             </Form>
         </Drawer>
-
-
     );
 };
